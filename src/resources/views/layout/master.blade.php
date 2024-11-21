@@ -84,7 +84,7 @@
                                 <a class="nav-link fw-bold text-white" href="{{ route('login') }}">Login</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link fw-bold text-white" href="{{ route('register') }}">Register Edit</a>
+                                <a class="nav-link fw-bold text-white" href="{{ route('register') }}">Register</a>
                             </li>    
                             @endauth
                         </ul>
