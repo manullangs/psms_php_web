@@ -27,7 +27,7 @@
                         @auth
                         @if (Auth::check() && isset(Auth::user()->roles[0]) && Auth::user()->roles[0]->name == 'superadmin')
                             <li class="nav-item">
-                            <a class="nav-link fw-bold text-white" href="{{ route('homes.home') }}">home</a>
+                            <a class="nav-link fw-bold text-white" href="{{ route('homes.home') }}">home edit</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link fw-bold text-white" href="{{ route('product.index') }}">product</a>
