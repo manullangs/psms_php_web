@@ -2,11 +2,11 @@ FROM php:8.1.5-fpm-alpine
 
 # Install dependencies
 RUN apk add --no-cache \
-    libpng \
-    libjpeg-turbo \
-    libwebp \
-    libzip \
-    zlib \
+    libpng-dev \
+    libjpeg-turbo-dev \
+    libwebp-dev \
+    libzip-dev \
+    zlib-dev \
     mysql-client \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install gd zip pdo pdo_mysql
