@@ -19,7 +19,7 @@
     <div class="carousel-item active card bg-dark text-white" data-bs-interval="10000">
       <img class="card-img" src="https://awsimages.detik.net.id/community/media/visual/2022/12/26/gambar-desian-terbaru-stadion-teladan-medan_169.jpeg?w=620" alt="Card image">
       <div class="card-img-overlay">
-        <h1 class="card-header fw-bold"> Stadion terbaru Psms Medan</h1>
+        <h1 class="card-header fw-bold">Medan Stadion terbaru Psms Medan</h1>
       </div>
     </div> 
     <div class="carousel-item card bg-dark text-white" data-bs-interval="10000">
