@@ -10,7 +10,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: docker.io
   # dockerhub.repository as <account>/<repo>
-  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/dockerpsms/docker1
+  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/dockerpsms/docker1:main
 
 jobs:
   build:
