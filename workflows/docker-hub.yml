@@ -10,7 +10,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: docker.io
   # dockerhub.repository as <account>/<repo>
-  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/dockerpsms/psms_php_web
+  IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/dockerpsms/psms_php_web:main
 
 jobs:
   build:
