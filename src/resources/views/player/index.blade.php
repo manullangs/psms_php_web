@@ -4,7 +4,7 @@
 @section('content')
     <div class="mx-lg-5 mt-lg-4 mb-lg-3">
         <div class="rounded pt-3 pb-3" style="background-color: #bbffa1">
-            <h1 class="text-center fw-bold">Pemain</h1>
+            <h1 class="text-center fw-bold">Pemain Baru</h1>
             <div class="mt-3 bg-dark mx-auto rounded" style="height: 3px;width: 75px"></div>
             <div class="grid mx-3 mt-4">
                 <div class="row row-gap-4">
