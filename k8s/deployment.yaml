@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: psms-web
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: psms-web
+  template:
+    metadata:
+      labels:
+        app: psms-web
+    spec:
+      containers:
+        - name: php
+          image: php:8.2-apache
+          ports:
+            - containerPort: 80
+          volumeMounts:
+            - mountPath: /var/www/html
+              name: app-code
+      volumes:
+        - name: app-code
+          hostPath:
+            path: /var/www/html
+            type: DirectoryOrCreate
